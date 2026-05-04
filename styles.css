@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -55,8 +55,7 @@ body {
     background: #3b82f6;
     color: white;
     padding: 10px 20px;
-    border-radius: 5px;
-
+    border-radius: 20px;
 }
 
 .infomation {
@@ -88,6 +87,7 @@ body {
 }
 
 .card {
+    text-align: center;
     width: 150px;
 }
 
@@ -97,4 +97,52 @@ body {
     border: 3px solid #3b82f6;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: rgb(221, 217, 217);
+    padding: 70px 35%;
+}
+
+.quo {
+    max-width: 600px;
+    font-style: italic;
+}
+
+.te {
+    align-self: flex-end;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3b82f6;
+    padding: 5px;
+    margin: 50px 125px;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+}
+
+.to, .action {
+    margin: 30px;
+}
+
+.to {
+    margin-left: 20px;
+}
+
+.btn2 {
+    background-color: #3b82f6;
+    border: white solid 1px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: white;
+    padding: 5px 15px;
 }
