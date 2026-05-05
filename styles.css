@@ -146,3 +146,10 @@ body {
     color: white;
     padding: 5px 15px;
 }
+
+.footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
