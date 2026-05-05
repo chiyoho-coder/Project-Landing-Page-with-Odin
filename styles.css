@@ -119,23 +119,18 @@ body {
     font-weight: bold;
 }
 
+.cta_f {
+    padding: 50px 15%;
+}
+
 .call_to_action {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #3b82f6;
-    padding: 5px;
-    margin: 50px 125px;
+    padding: 50px;
     border-radius: 5px;
     color: white;
     font-size: 10px;
-}
-
-.to, .action {
-    margin: 30px;
-}
-
-.to {
-    margin-left: 20px;
 }
 
 .btn2 {
@@ -148,8 +143,11 @@ body {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #1f2937;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px 0;
 }
